@@ -19,7 +19,7 @@ if len(sys.argv)>1:
     if viewVideo=='0' or viewVideo=='False' or viewVideo=='false':
         viewVideo=False
 
-############ARUCO/CV2############
+########################
 
 id_to_find=72
 marker_size=20 #cm
@@ -89,7 +89,7 @@ if viewVideo==False:
 
     print("Performance Diagnosis:")
     if frequency>10:
-        print("Performance is more than enough for great precision landing.")
+        print("need more better performance.")
     elif frequency>5:
         
         print("This resolution likely maximizes the detection altitude of the marker.")
